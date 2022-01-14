@@ -63,12 +63,23 @@ main {
 }
 
 section{
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 div a,h3{
     display: inline-block;
     vertical-align: middle;
+}
+
+div span:first-child{
+    border: 1px solid black;
+    padding: 0;
+    width: 20px;
+    height: 20px;    
+    line-height: 20px;
+    border-radius: 100%;
+    text-align: center;
+    margin-right: 8px;
 }
 
 a{
