@@ -15,7 +15,7 @@ header div *{
     vertical-align: middle;
 }
 
-/*Ingrandisco il titolo e spazio un po' le lettere l'una dall'altra*/
+/*Ingrandisco il titolo e spazio le lettere l'una dall'altra*/
 div h1{
     font-size: 3em;
     letter-spacing: 0.5px;
@@ -71,9 +71,10 @@ div a,h3{
     vertical-align: middle;
 }
 
+/*Tutta sta spatafiata per centrare e regolare i Checks*/
 div span:first-child{
-    border: 1px solid black;
-    padding: 0;
+    font-size: small;
+    border: 1px solid;
     width: 20px;
     height: 20px;    
     line-height: 20px;
@@ -82,14 +83,27 @@ div span:first-child{
     margin-right: 8px;
 }
 
+div span:first-child{
+    color: green;
+    border-color: green;
+}
+
+/*Uso !important per sovrastare il first-child sopra*/
+.cross{
+    color: red !important;
+    border-color: red !important;
+}
+
 a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.8);
 }
 
+/*Trasformo il display degli span per poterli spaziare con il margin*/
 span{
     display: inline-block;
     margin-top: 10px;
+    font-weight: 500;
 }
 
 .category{
