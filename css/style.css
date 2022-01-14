@@ -56,3 +56,19 @@ nav button:last-child{
     border-color: #d3d3d3d8;
     background-color: white;
 }
+
+/*Leggera trasparenza di tutte le scritte delle Tasks*/
+main {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+div a,h3{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
