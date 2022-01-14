@@ -1,10 +1,11 @@
+/*Carico Font Roboto, anche se un qualsiasi sans-serif preinstallato avrebbe avuto lo stesso risultato*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, Arial, serif-sans;
 }
-
+/*Padding per spaziare il div del Logo*/
 header div{
     padding: 20px;
 }
@@ -13,6 +14,13 @@ header div *{
     display: inline-block;
     vertical-align: middle;
 }
+
+/*Ingrandisco il titolo e spazio un po' le lettere l'una dall'altra*/
+div h1{
+    font-size: 3em;
+    letter-spacing: 0.5px;
+}
+
 /*Aggiunto colore girgio impercettibile*/
 #task-container{
     padding: 5% 12%;
@@ -35,7 +43,7 @@ button{
     padding: 5px 8px;
     border-radius: 5px;
 }
-
+/*Lascio invariato ed in contrasto il colore del bordo dei bottoni per dare un senso di "pigiatura" del bottone*/
 nav button:first-child{
     color: white;
     border-color: #47adf19a;
