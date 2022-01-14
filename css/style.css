@@ -13,7 +13,38 @@ header div *{
     display: inline-block;
     vertical-align: middle;
 }
-
+/*Aggiunto colore girgio impercettibile*/
 #task-container{
     padding: 5% 12%;
+    background-color: rgba(224, 224, 224, 0.5);
+}
+
+
+/*Aggiunto sfondo bianco come da esercizio che va in contrasto con il girgio impercettibile*/
+nav,main{
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+nav{
+    margin-bottom: 5px;
+}
+
+button{
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+nav button:first-child{
+    color: white;
+    border-color: #47adf19a;
+    background-color: #47adf1;
+    margin-right: 5px;
+}
+
+nav button:last-child{
+    color: #d3d3d3;
+    border-color: #d3d3d3d8;
+    background-color: white;
 }
